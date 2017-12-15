@@ -1,0 +1,8 @@
+com\university\diploma\config\DataConfig.class
+com\university\diploma\controller\FunctionContorller.class
+com\university\diploma\config\AppInitializer.class
+com\university\diploma\service\CalculationService.class
+com\university\diploma\config\SecurityConfig.class
+com\university\diploma\config\WebAppConfig.class
+com\university\diploma\model\Params.class
+com\university\diploma\controller\MapController.class
