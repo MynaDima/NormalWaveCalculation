@@ -112,7 +112,7 @@ $(document).ready(function () {
         "esri/SpatialReference", "esri/InfoTemplate", "dojo/dom", "dojo/on", "esri/geometry/Polygon",
         "esri/symbols/SimpleLineSymbol",
         "esri/symbols/SimpleFillSymbol", "esri/Color", "esri/symbols/PictureFillSymbol", "esri/symbols/CartographicLineSymbol", "esri/layers/GraphicsLayer",
-        "dojo/dom-attr", "dojo/domReady!"
+        "dojo/dom-attr", "dojo/domReady!map"
     ], function (Map, Graphic, SimpleMarkerSymbol,
                  GeometryService, ProjectParameters,
                  SpatialReference, InfoTemplate, dom, on, Polygon, SimpleLineSymbol, SimpleFillSymbol, Color,
