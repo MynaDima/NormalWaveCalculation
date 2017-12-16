@@ -17,11 +17,11 @@
     <link rel="stylesheet" type="text/css" href="<c:url value="/resources/css/map.css"/>">
     <link rel="stylesheet" type="text/css" href="<c:url value="/resources/css/bootstrap.min.css"/>">
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <script src="<c:url value="/resources/js/map.js" />"></script>
-    <script src="<c:url value="/resources/js/bootstrap.min.js" />"></script>
-    <script src="<c:url value="/resources/js/jquery.flot.js" />"></script>
-    <script src="<c:url value="/resources/js/jquery-ui.js" />"></script>
-    <script src="<c:url value="/resources/js/jquery.flot.axislabels.js" />"></script>
+    <script src="<c:url value="${pageContext.request.contextPath}/resources/js/map.js"/>"></script>
+    <script src="<c:url value="/resources/js/bootstrap.min.js"/>"></script>
+    <script src="<c:url value="/resources/js/jquery.flot.js"/>"></script>
+    <script src="<c:url value="/resources/js/jquery-ui.js"/>"></script>
+    <script src="<c:url value="/resources/js/jquery.flot.axislabels.js"/>"></script>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css">
     <%--<script src="//cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>--%>
