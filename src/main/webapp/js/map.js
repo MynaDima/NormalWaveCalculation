@@ -36,7 +36,7 @@ $(document).ready(function () {
             type: 'POST',
             dataType: 'json',
             contentType: 'application/json',
-            url: '/waveCalculation',
+            url: '/university/waveCalculation',
             data: JSON.stringify({
                 "elevation": elev,
                 "elevationMax": 100,
@@ -424,7 +424,7 @@ $(document).ready(function () {
                                             type: 'POST',
                                             dataType: 'json',
                                             contentType: 'application/json',
-                                            url: '/waveCalculation',
+                                            url: '/university/waveCalculation',
                                             data: JSON.stringify({
                                                 "elevation": elev,
                                                 "elevationMax": 100,
