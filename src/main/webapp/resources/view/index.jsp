@@ -17,7 +17,7 @@
     <link rel="stylesheet" type="text/css" href="<c:url value="/resources/css/map.css"/>">
     <link rel="stylesheet" type="text/css" href="<c:url value="/resources/css/bootstrap.min.css"/>">
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <script type="text/javascript" src="<c:url value="${pageContext.request.contextPath}/js/map.js"/>"></script>
+    <script type="text/javascript" src="<c:url value="/university/js/map.js"/>"></script>
     <script type="text/javascript" src="<c:url value="/js/bootstrap.min.js"/>"></script>
     <script type="text/javascript" src="<c:url value="/js/jquery.flot.js"/>"></script>
     <script type="text/javascript" src="<c:url value="/js/jquery-ui.js"/>"></script>
