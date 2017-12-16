@@ -21,11 +21,12 @@ public class WebAppConfig extends WebMvcConfigurerAdapter {
 
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
-        registry.addResourceHandler("/WEB-INF/static/**").addResourceLocations("/static/");
-//        registry.addResourceHandler("/js/**").addResourceLocations("/js/");
-//        registry.addResourceHandler("/css/**").addResourceLocations("/css/");
-//        registry.addResourceHandler("/image/**").addResourceLocations("/image/");
-//        registry.addResourceHandler("/view/**").addResourceLocations("/view/");
+        registry.addResourceHandler("/webapp/**").addResourceLocations("/");
+        registry.addResourceHandler("/resources/*").addResourceLocations("/resources/");
+        registry.addResourceHandler("/js/**").addResourceLocations("/js/");
+        registry.addResourceHandler("/css/**").addResourceLocations("/css/");
+        registry.addResourceHandler("/image/**").addResourceLocations("/image/");
+        registry.addResourceHandler("/view/**").addResourceLocations("/view/");
     }
 
     @Bean
