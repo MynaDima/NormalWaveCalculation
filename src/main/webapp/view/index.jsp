@@ -14,10 +14,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <title>Map</title>
-    <link rel="stylesheet" type="text/css" href="<c:url value="/resources/css/map.css"/>">
-    <link rel="stylesheet" type="text/css" href="<c:url value="/resources/css/bootstrap.min.css"/>">
+    <link rel="stylesheet" type="text/css" href="<c:url value="/css/map.css"/>">
+    <link rel="stylesheet" type="text/css" href="<c:url value="/css/bootstrap.min.css"/>">
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <script type="text/javascript" src="<c:url value="/university/js/map.js"/>"></script>
+    <script type="text/javascript" src="<c:url value="/js/map.js"/>"></script>
     <script type="text/javascript" src="<c:url value="/js/bootstrap.min.js"/>"></script>
     <script type="text/javascript" src="<c:url value="/js/jquery.flot.js"/>"></script>
     <script type="text/javascript" src="<c:url value="/js/jquery-ui.js"/>"></script>
