@@ -119,8 +119,8 @@ $(document).ready(function () {
                  PictureFillSymbol, CartographicLineSymbol, GraphicsLayer, domAttr) {
         map = new Map("map", {
             basemap: "streets",
-            center: [-120.741, 56.39],
-            zoom: 4
+            center: [114, 14],
+            zoom: 5
         });
 
         var myPolygon = {
